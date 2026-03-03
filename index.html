@@ -1,118 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>OddlyAds | Mobile Marketing</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: #0b1c2d;
-      color: #ffffff;
-    }
-    header {
-      padding: 60px 20px;
-      text-align: center;
-      background: linear-gradient(135deg, #0d47a1, #1976d2);
-    }
-    header h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 18px;
-      opacity: 0.9;
-    }
-    section {
-      padding: 60px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-    h2 {
-      color: #64b5f6;
-      margin-bottom: 20px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 25px;
-    }
-    .card {
-      background: #102a43;
-      padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.3);
-    }
-    footer {
-      text-align: center;
-      padding: 30px;
-      background: #081421;
-      font-size: 14px;
-      opacity: 0.8;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OddlyAds | Performance Driven Marketing</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f8ff;
+    color:#222;
+}
+
+header{
+    background:#0a66c2;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header img{
+    width:140px;
+    margin-bottom:20px;
+}
+
+header h1{
+    font-size:42px;
+    font-weight:700;
+}
+
+header p{
+    font-size:18px;
+    margin-top:10px;
+}
+
+section{
+    padding:60px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:32px;
+    color:#0a66c2;
+}
+
+.about{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+    line-height:1.7;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#0a66c2;
+}
+
+.contact{
+    text-align:center;
+    background:#0a66c2;
+    color:white;
+    padding:50px 20px;
+}
+
+.contact a{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#0a66c2;
+    text-decoration:none;
+    font-weight:600;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.contact a:hover{
+    background:#003f88;
+    color:white;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#002b5c;
+    color:white;
+}
+</style>
 </head>
+
 <body>
 
-<<header style="text-align:center;padding:40px 20px;">
-  <img src="OddlyAds_logo" alt="OddlyAds_logo" 
-       style="width:140px;border-radius:20px;margin-bottom:15px;">
-  <h1>OddlyAds</h1>
-  <p>Performance-Driven Mobile Marketing</p>
-</header>>
-  <h1>OddlyAds</h1>
-  <p>Performance-Driven Mobile Marketing</p>
+<header>
+    <img src="logo.png" alt="OddlyAds Logo">
+    <h1>OddlyAds</h1>
+    <p>Performance-Driven Mobile & Affiliate Marketing Agency</p>
 </header>
 
 <section>
-  <h2>What We Do</h2>
-  <p>
-    OddlyAds specializes in high-impact mobile marketing solutions designed to drive
-    installs, engagement, and revenue across global mobile audiences.
-  </p>
+    <h2>About Us</h2>
+    <div class="about">
+        <p>
+            OddlyAds is a results-focused performance marketing agency based in Ranchi.
+            We specialize in mobile marketing, affiliate marketing, and social media performance campaigns.
+            Our approach is completely data-driven, ensuring maximum ROI, scalable growth, and high-quality user acquisition.
+            We partner with brands and advertisers to drive measurable business results through precision targeting,
+            strategic campaign optimization, and advanced analytics.
+        </p>
+    </div>
 </section>
 
 <section>
-  <h2>Mobile Marketing Services</h2>
-  <div class="grid">
-    <div class="card">User Acquisition Campaigns</div>
-    <div class="card">Performance-Based Mobile Ads</div>
-    <div class="card">In-App Event Optimization</div>
-    <div class="card">ROI-Focused Media Buying</div>
-    <div class="card">Retention & Re-engagement</div>
-    <div class="card">Fraud-Safe Mobile Traffic</div>
-  </div>
+    <h2>Our Services</h2>
+    <div class="services">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="Performance Marketing">
+            <div class="card-content">
+                <h3>Performance Marketing</h3>
+                <p>ROI-focused campaigns designed to drive measurable conversions, sales, and scalable revenue growth.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Mobile Marketing">
+            <div class="card-content">
+                <h3>Mobile Marketing</h3>
+                <p>User acquisition, app installs, re-engagement campaigns and high-quality mobile traffic solutions.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Affiliate Marketing">
+            <div class="card-content">
+                <h3>Affiliate Marketing</h3>
+                <p>Strategic affiliate partnerships and publisher network management to drive targeted conversions.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312" alt="Social Media Marketing">
+            <div class="card-content">
+                <h3>Social Media Marketing</h3>
+                <p>Performance-based campaigns across social platforms to increase engagement, leads, and brand awareness.</p>
+            </div>
+        </div>
+
+    </div>
 </section>
 
-<section>
-  <h2>Why OddlyAds</h2>
-  <div class="grid">
-    <div class="card">Mobile-First Strategy</div>
-    <div class="card">Data-Driven Decisions</div>
-    <div class="card">Performance Transparency</div>
-    <div class="card">Scalable Campaigns</div>
-  </div>
-</section>
-
-<section>
-  <h2>Our Performance Approach</h2>
-  <p>
-    We focus on measurable mobile KPIs such as installs, in-app events,
-    transactions, and user lifetime value. Every campaign is optimized for scale and efficiency.
-  </p>
-</section>
-
-<section>
-  <h2>Contact</h2>
-  <p>
-    Reach us via LinkedIn to collaborate on mobile growth opportunities.
-  </p>
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Location:</strong> Ranchi</p>
+    <p><strong>Phone:</strong> 9199665665</p>
+    <a href="https://www.linkedin.com/company/oddlyads/posts/?feedView=all" target="_blank">
+        Visit Our LinkedIn Page
+    </a>
 </section>
 
 <footer>
-  © 2026 OddlyAds. Mobile Marketing Specialists.
+    © 2026 OddlyAds | All Rights Reserved
 </footer>
 
 </body>
